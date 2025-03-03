@@ -689,7 +689,7 @@ if __name__ == "__main__":
                 name = line.strip()[1:]
                 
             else:
-                seq = line.strip()
+                seq_bp = line.strip()
                 
                 if len(seq_bp) < 651:
                     print(
